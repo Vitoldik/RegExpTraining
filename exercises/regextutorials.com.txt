@@ -1,0 +1,12 @@
+#
+# Решение задач с сайта regextutorials.com
+#
+
+1. Floating point numbers
+\d\.\d+
+
+2. Years before 1990
+.*\(19[1-8]\d\)
+
+3. Hexadecimal colors
+#(\d|[A-F]){6}
