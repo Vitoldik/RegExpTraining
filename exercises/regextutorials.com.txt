@@ -10,3 +10,15 @@
 
 3. Hexadecimal colors
 #(\d|[A-F]){6}
+
+4. Grayscale colors
+#([0-9a-fA-F]{1,2})\1\1
+
+5. Too long lines
+^.{30}.+$
+
+6. Remove repeating words
+\b(.+)\b\s+\1\b
+
+7. Match HTML tags
+<[^<>]+>
